@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureDocteur.API", "FutureDocteur.API\FutureDocteur.API.csproj", "{10F09568-30B7-4628-8201-E82D412D617B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGetWay", "ApiGetWay\ApiGetWay.csproj", "{F94E5815-679E-48BF-AFC6-F2B42D1A014A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F09568-30B7-4628-8201-E82D412D617B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F09568-30B7-4628-8201-E82D412D617B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F09568-30B7-4628-8201-E82D412D617B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F09568-30B7-4628-8201-E82D412D617B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94E5815-679E-48BF-AFC6-F2B42D1A014A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94E5815-679E-48BF-AFC6-F2B42D1A014A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94E5815-679E-48BF-AFC6-F2B42D1A014A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94E5815-679E-48BF-AFC6-F2B42D1A014A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73A62803-77D9-48AB-8629-972D767131A4}
+	EndGlobalSection
+EndGlobal
