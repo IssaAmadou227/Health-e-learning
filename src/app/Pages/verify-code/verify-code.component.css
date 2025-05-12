@@ -1,0 +1,34 @@
+.verification-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .code-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .code-inputs input {
+    width: 50px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .code-inputs input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 15px;
+  }
+  

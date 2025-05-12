@@ -1,0 +1,16 @@
+<div class="verification-container">
+    <h2>Vérification du code</h2>
+    <form [formGroup]="codeForm" class="code-form">
+      <div class="code-inputs">
+        <input type="text" maxlength="1" formControlName="code0" (input)="onInput(0, $event)" (keydown)="onKeyDown(0, $event)">
+        <input type="text" maxlength="1" formControlName="code1" (input)="onInput(1, $event)" (keydown)="onKeyDown(1, $event)">
+        <input type="text" maxlength="1" formControlName="code2" (input)="onInput(2, $event)" (keydown)="onKeyDown(2, $event)">
+        <input type="text" maxlength="1" formControlName="code3" (input)="onInput(3, $event)" (keydown)="onKeyDown(3, $event)">
+        <input type="text" maxlength="1" formControlName="code4" (input)="onInput(4, $event)" (keydown)="onKeyDown(4, $event)">
+        <input type="text" maxlength="1" formControlName="code5" (input)="onInput(5, $event)" (keydown)="onKeyDown(5, $event)">
+      </div>
+    </form>
+  
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  </div>
+  
